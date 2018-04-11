@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backdrop-Previewer", "Backdrop-Previewer\Backdrop-Previewer.csproj", "{2D98FB52-F7B1-42E6-AA00-E2B6CB2B1CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D98FB52-F7B1-42E6-AA00-E2B6CB2B1CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D98FB52-F7B1-42E6-AA00-E2B6CB2B1CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D98FB52-F7B1-42E6-AA00-E2B6CB2B1CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D98FB52-F7B1-42E6-AA00-E2B6CB2B1CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B8BB07-0845-4C6F-BC92-4A2FDDF73608}
+	EndGlobalSection
+EndGlobal
