@@ -46,7 +46,7 @@ namespace Backdrop_Previewer
             this.box = new PictureBox();
             box.Height = height;
             box.Width = width;
-            box.Image = image;
+            box.BackgroundImage = image;
             box.Location = new Point(posX, posY);
         }
 
@@ -153,7 +153,7 @@ namespace Backdrop_Previewer
         {
             Bitmap source = new Bitmap(image);
             Image croppedImage = new Bitmap(source.Clone(new System.Drawing.Rectangle(posX, posY, width, height), source.PixelFormat));
-            this.box.Image = croppedImage;
+            this.box.BackgroundImage = croppedImage;
         }
 
         // getters en setters

@@ -61,29 +61,29 @@ namespace Backdrop_Previewer
                 
                 //groupBox1.Controls.Add(cropped.box);
 
-                pictureBox1.Image = cropped.box.Image;
+                pictureBox1.BackgroundImage = cropped.box.BackgroundImage;
                 pictureBox1.Invalidate();
 
 
-                Image imageFile2 = cropped2.box.Image;
+                Image imageFile2 = cropped2.box.BackgroundImage;
                 //geheugen address = croppedImage 
 
-                pictureBox2.Image = imageFile2;
-                pictureBox2.Image.RotateFlip(RotateFlipType.RotateNoneFlipX); // flips it  like this ---
+                pictureBox2.BackgroundImage = imageFile2;
+                pictureBox2.BackgroundImage.RotateFlip(RotateFlipType.RotateNoneFlipX); // flips it  like this ---
                 pictureBox2.Size = backdropSize;
                 pictureBox2.Invalidate();
 
-                Image imageFile3 = cropped3.box.Image;
+                Image imageFile3 = cropped3.box.BackgroundImage;
                 
-                pictureBox3.Image = imageFile3;
-                pictureBox3.Image.RotateFlip(RotateFlipType.RotateNoneFlipY); // flips it  like this |
+                pictureBox3.BackgroundImage = imageFile3;
+                pictureBox3.BackgroundImage.RotateFlip(RotateFlipType.RotateNoneFlipY); // flips it  like this |
                 pictureBox3.Size = backdropSize;
                 pictureBox3.Invalidate();
 
 
-                Image imageFile4 = cropped4.box.Image;
+                Image imageFile4 = cropped4.box.BackgroundImage;
 
-                pictureBox4.Image = imageFile4;
+                pictureBox4.BackgroundImage = imageFile4;
                 imageFile4.RotateFlip(RotateFlipType.RotateNoneFlipXY); // flips it  like this /
                 pictureBox4.Size = backdropSize;
                 pictureBox4.Invalidate();
